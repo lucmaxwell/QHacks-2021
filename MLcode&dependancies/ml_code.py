@@ -12,6 +12,6 @@ def predictor(sentence):
     padded = pad_sequences(sequence, padding='post', maxlen=100, truncating='post')
     model = load_model('fake_news_predictor.h5')
     prediction = model.predict_classes(padded)
-    return prediction
+    return prediction[0][0]
 
 output = predictor('Trump impeachment trial to begin week of Feb. 8, Senate Democratic leader says')
