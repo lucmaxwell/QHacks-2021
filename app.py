@@ -1,4 +1,5 @@
 from flask import Flask, render_template, url_for
+from ml_code import predictor
 
 app = Flask(__name__)
 
@@ -9,3 +10,4 @@ def index():
 if __name__ == "__main__":
     app.run(debug = True)
 
+print(predictor('Trump is going to be a democrat'))
