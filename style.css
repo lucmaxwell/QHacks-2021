@@ -3,10 +3,48 @@
 }
 
 html {
-    font-size: 1.5rem;
+    font-size: 5rem;
+
 }
 
 body {
-    text-align: center;
+	background-image: url(newspaper.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 800px 800px;
+	background-color: #FDEFB0;
 }
+
+#rcorners {
+  border-radius: 25px;
+  border: 2px solid #BDA84B;
+  padding: 20px;
+  width: 800px;
+  height: 25px;
+  font-size: 20px;
+
+}
+h1 {
+	font-family: 'Alfa Slab One';
+	font-size: 90px;
+	color: #BDA84B;
+}
+h2 {
+	font-size: 40px;
+}
+button {
+  border-radius: 25px;
+  border: 2px solid #BDA84B;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+
+
+
+
+
 
