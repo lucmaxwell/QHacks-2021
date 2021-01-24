@@ -58,7 +58,6 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 
 history = model.fit(padded_training, training_labels, validation_data=(padded_validation, validation_labels), epochs=10, verbose=1)
 
-
 '''
 import matplotlib.pyplot as plt
 
