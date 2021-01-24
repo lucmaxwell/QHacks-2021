@@ -13,17 +13,11 @@
     <h1>Your News Is!</h1>
     <h2>Have you ever wondered how truthful your news is?</h2>
     <h2>Look no further!</h2>
-    <div >
-        <input id="rcorners" class="input" type="text" size="90%" value="Simply Copy and Paste Your Headline Here an Press Submit~">
-        <button class="button button3" id="submitBtn" onclick="printResult('rcorners')">Submit</button>
-    </div>
-    <p class="result" id = "resultText">Press submit button to get the result</p>
 
     <form method="POST">
-        <input id="rcorners2" class="input" type="text" size="90%" value="Simply Copy and Paste Your Headline Here an Press Submit~" name="text" >
-        <input type="submit">
+        <input type="text" class="rcorners" value="Simply Copy and Paste Your Headline Here an Press Submit~" name="text" >
+        <input type="submit" class="button">
     </form>
-
-    <p>{{test}}</p>
+    <p id="small-text">{{test}}</p>
     
 {% endblock %}
