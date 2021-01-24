@@ -11,7 +11,7 @@ def index():
 def my_form_post():
     text = request.form['text']
     if text != "Simply Copy and Paste Your Headline Here an Press Submit~":
-        predictionNum = int(predictor('Trump is president'))
+        predictionNum = int(predictor(text))
         result = ''
         if predictionNum == 1:
             result = 'This source is reliable'
