@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 {% endblock %}
 
 {% block body %}
@@ -14,7 +14,8 @@
     <h2>Have you ever wondered how truthful your news is?</h2>
     <h2>Look no further!</h2>
     <div >
-        <input id="rcorners" type="text" size="90%" value="Simply Copy and Paste Your Headline Here an Press Submit~">
+        <input id="rcorners" class="input" type="text" size="90%" value="Simply Copy and Paste Your Headline Here an Press Submit~">
         <button class="button button3">Submit</button>
     </div>
+    <p class="result">This is some text</p>
 {% endblock %}
