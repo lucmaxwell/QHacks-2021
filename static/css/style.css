@@ -22,8 +22,17 @@ body {
   width: 800px;
   height: 25px;
   font-size: 20px;
-
 }
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #BDA84B;
+  padding: 20px;
+  width: 800px;
+  height: 25px;
+  font-size: 20px;
+}
+
 h1 {
 	font-family: 'Alfa Slab One';
 	font-size: 90px;
